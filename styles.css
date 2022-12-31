@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin:0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.outerbox{
+    width:100vw;
+    height: 100vh;
+    background:linear-gradient(to top right,#C6DEA6, skyblue);
+}
+.innerbox{
+    width:300px;
+    height: 400px;
+    margin:0 auto;
+    position:relative;
+    top:20%;
+    background:linear-gradient(to bottom right,#ffffffaa,lightpink);
+    backdrop-filter: blur(5px);
+    transition: translateY(-50%);
+    border-radius: 10px;
+    padding:10px 30px;
+    z-index: 1;
+    box-shadow: 2px 2px 20px grey;
+}
+header{
+    line-height: 2rem;
+}
+header>h1{
+    font-size: 
+}
+header>p{
+    font-weight: 200;
+    font-size: 15px;
+    color: grey;
+}
+form>p{
+    margin: 10px 0;
+}
+form>p>input{
+    margin:7px 0px;
+    padding:5px;
+}
+input{
+    width:100%;
+    height:30px;
+    border-radius: 3px;
+    border: 4px;
+}
+form>p>label{
+    font-weight: 600;
+    font-size: 17px;
+}
+.footer{
+    text-align: center;
+    color: rgb(37, 30, 30);
+}
+form>p>input[type = "submit"]{
+    margin:4px;
+    background-color: rgb(46, 205, 233);
+    font-size: medium;
+    letter-spacing: 0.15rem;
+    border-radius: 8px;
+}
+form>p>input[type = "submit"]:hover{
+    background-color: rgb(16, 161, 228);
+}
+
+.circle{
+    width:150px;
+    height:150px;
+    border:2px;
+    border-radius: 100px;
+    background: linear-gradient(to right,#ffffff33,white);
+}
+.c1{
+    position:absolute;
+    top:150px;
+    left:250px;
+}
+.c2{
+    position:absolute;
+    bottom:150;
+    right:250px;
+}
